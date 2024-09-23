@@ -1,0 +1,30 @@
+.pointsTableContainer {
+  >span:first-child {
+    margin-left: 1rem;
+  }
+
+  >table {
+    width: 100%;
+    margin-top: 1rem;
+
+    img {
+      height: 100px;
+      width: 100px;
+    }
+    tr {
+      cursor: pointer;
+    }
+    td {
+      margin-top: 1rem;
+      border-bottom: 1px solid gray;
+    }
+  }
+}
+
+.boldTxt {
+  font-weight: bold;
+}
+
+.header {
+  text-align: center;
+}
