@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
     plugins: [react()],
     build: {
       // sourcemap: mode === 'development',
-    sourcemap: env.VITE_GENERATE_SOURCEMAP === 'true',
+      sourcemap: env.VITE_GENERATE_SOURCEMAP === 'true',
     }
   }
 })
